@@ -44,3 +44,8 @@ func (q *Queue) Pop() string {
 	q.count--
 	return node
 }
+
+// Return the current queue element number
+func (q *Queue) Length() int {
+	return q.count
+}
