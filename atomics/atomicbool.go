@@ -1,3 +1,5 @@
+package atomicbool
+
 // Imported from https://gist.github.com/mahan/6256149
 
 import "sync/atomic"
